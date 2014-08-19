@@ -1,0 +1,19 @@
+img.logo {
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.call-to-action{
+  height: 400px;
+  background: url("/images/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}

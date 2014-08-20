@@ -27,6 +27,7 @@ author :
 #
 production_url : http://jakep36.github.io
 
+baseurl: /uncubed-www
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :

@@ -1,3 +1,5 @@
+---
+---
 img.logo {
   width: 200px;
   padding-top: 10px;
@@ -7,7 +9,7 @@ img.logo {
 
 .call-to-action{
   height: 400px;
-  background: url("/images/background.png") no-repeat center center fixed;
+  background: url("{{ site.base_path }}/images/background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -13,7 +13,7 @@ img.social-icon{
   padding-left: 5px;
 }
 img.outside-view {
-  width: 400px;
+  width: 480px;
   padding-left: 10px;
 }
 
@@ -40,7 +40,7 @@ img.outside-view {
   padding-top: 40px;
   padding-bottom: 40px;
   color: #fff;
-  text-shadow: 2px 2px 0px #000;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .call-to-action-form {
@@ -72,7 +72,31 @@ h3{
   border-radius: 10px;
 }
 
+.thanks{
+  background-color: #f5f5f5;
+  padding: 30px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  margin-top: 20px;
+  color: #28a4c9k;
+}
+
 .mission{
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+.social {
+  text-align: center;
+}
+
+li.social > a {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.form-group-no-show{
+  display: none;
 }

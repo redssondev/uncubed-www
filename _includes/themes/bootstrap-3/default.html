@@ -84,12 +84,26 @@
         <div class="call-to-action">
           <div class="row">
             <div class="col-md-5 col-md-offset-1 col-xs-11 col-xs-offset-1">
-              <div class="heading">
-                <h1>Coworking community for entrepreneurs, freelancers and startup founders</h1>
-              </div>
+              {{ content }}  
             </div>
             <div class="col-md-4 col-xs-11">
-              {{ content }}
+              <div class="call-to-action-form">
+                <form action="//forms.brace.io/info@uncubedspace.com" method="post" class="form-horizontal">
+                  <input type="hidden" name="_next" value="{{ site.JB.BASE_PATH }}/thanks.html" />
+                  <div class="form-group-no-show">
+                    <input name="job" type="text" id="job" placeholder="Job">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="name" name="name" id="name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control input-lg" type="email" name="_replyto" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-info btn-block call-to-action-btn">Schedule a Tour</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>

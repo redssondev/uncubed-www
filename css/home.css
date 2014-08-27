@@ -36,8 +36,8 @@ img.outside-view {
 
 .heading > h1{
   /* padding-left: 100px; */
-  font-size: 50px;
-  padding-top: 40px;
+  font-size: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
@@ -45,7 +45,7 @@ img.outside-view {
 
 .call-to-action-form {
   padding-left: 40px;
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 40px;
 }
 
